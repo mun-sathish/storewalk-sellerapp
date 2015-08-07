@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_btn_row"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/radioButton_All"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="All" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Instock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="In Stock" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Outofstock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Out of Stock" />
+
+    </RadioGroup>
+
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_below="@id/radio_group"-->
+    <!-->-->
+    <!--<Button-->
+    <!--android:id="@+id/ok"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:textColor="@color/White"-->
+    <!--android:textSize="16sp"-->
+    <!--android:text="OK"-->
+    <!--android:background="#ff40c67e"-->
+    <!--android:layout_marginTop="8dp"/>-->
+    <!--</RelativeLayout>-->
+
+
+</RelativeLayout>

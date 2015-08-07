@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/background_material_dark"
+    android:orientation="horizontal">
+    <!--   compile 'com.pkmmte.view:circularimageview:1.1'
+        <com.pkmmte.view.CircularImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/sat"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+
+            app:border="true"
+            app:border_color="#EEEEEE"
+            app:border_width="4dp"
+            app:shadow="true"
+            android:id="@+id/profile" />   -->
+    <!--
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/cirsat"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="30dp"
+            />    -->
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/profile"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Hi"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Sathish Mun"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="mun.sathish@gmail.com"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+</LinearLayout>

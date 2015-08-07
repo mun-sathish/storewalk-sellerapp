@@ -1,0 +1,34 @@
+#Android studio
+.gradle/*
+.idea/*
+build/*
+gradlew.bat
+gradle.properties
+gradlew
+#in.labdesk.storewalk.hprof
+*.ipr
+*iws
+
+#files for dex VM
+*.dex
+
+#local configuration file (sdk path, etc
+local.properties
+
+#OSX files
+.DS_Store
+/build
+
+#Windows clutter
+Thumbs.db
+
+#Eclipse project files
+proguard/
+
+#Eclipse Metadata
+.metadata/
+
+#Built application files
+*.apk
+*.ap_
+keystore.jks

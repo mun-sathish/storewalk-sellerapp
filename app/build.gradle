@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "in.storewalk.storewalksellerapp"
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'com.android.support:appcompat-v7:22.0.+'
+
+    //  Material Tabs
+    compile 'it.neokree:MaterialTabs:0.11'
+
+    // recycler views
+    compile 'com.android.support:recyclerview-v7:22.0.+'
+    compile 'com.marshalchen.ultimaterecyclerview:library:0.3.7'
+
+    // rippe effect to any elements of the layout xml files
+    compile 'com.github.traex.rippleeffect:library:1.2.4'
+
+    // barcode scanner
+    compile 'me.dm7.barcodescanner:zxing:1.7.2'
+
+
+    compile 'com.afollestad:material-dialogs:0.7.4.2'
+    compile files('libs/volley.jar')
+}
